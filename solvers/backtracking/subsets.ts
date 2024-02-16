@@ -1,5 +1,3 @@
-const nums: number[] = [1, 2, 3, 4, 5];
-
 function subsets(nums: number[]): number[][] {
   const res: number[][] = [];
   const subset: number[] = [];
@@ -27,7 +25,5 @@ function subsets(nums: number[]): number[][] {
   dfs(0);
   return res;
 }
-
-console.log(subsets([1, 2, 3, 4]));
 
 export { subsets };
